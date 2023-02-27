@@ -5,11 +5,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    height: 80%;
+
 }
 main{
     background-color: #58534d;
-    height: 1000px;
+   
 }
 
 /* STYLING FOR NAV*/
@@ -35,6 +35,11 @@ justify-content: space-around;
     display: flex;
     padding: 12px;
 
+}
+.rank_btn{
+    background-color: rgb(0, 128, 68);
+    padding: 16px;
+    border-radius: 10%;
 }
 
 /* STYLING FOR INTRO*/
@@ -80,12 +85,29 @@ justify-content: space-around;
 display: flex;
 flex-direction: column;
 }
+.content2{
+    display: flex;
+    flex-direction: column;
+    }
 .content{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border: 2px solid black;
+    padding: 24px;
+    margin: 12px;
 }
+.content_full{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.poster{
+height: 100px;
+width: 80px;
+}
+
 .acc_create{
     display: flex;
     flex-direction: column;
@@ -102,5 +124,4 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20%;
 }
