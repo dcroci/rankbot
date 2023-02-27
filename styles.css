@@ -41,6 +41,9 @@ justify-content: space-around;
     display: flex;
     padding: 12px;
 }
+.nav_link:hover{
+    transform: scale(1.1);
+}
 .rank_btn{
     background-color: rgb(0, 128, 68);
     padding: 16px;
@@ -59,20 +62,27 @@ justify-content: space-around;
 }
 
 /* STYLING FOR SERVICES*/
-
-.services{
+.container{
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
-    
+    align-items:center;
+    height: 100%;
 }
 .service{
-    padding: 20px 100px;
+    padding: 62px;
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1px;
 }
 .service_logo{
-    width: 200px;
+    max-width: 100px;
     height: 150px;
     display: flex;
+    justify-content: center;
     
 }
 
@@ -80,7 +90,9 @@ justify-content: space-around;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 30px%;
     padding: 24px;
+    
 }
 /* STYLING FOR UPCOMING*/
 
@@ -92,11 +104,11 @@ justify-content: space-around;
 }
 .content1{
 display: flex;
-flex-direction: column;
+flex-direction: row;
 }
 .content2{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     }
 .content{
     display: flex;
@@ -113,8 +125,14 @@ align-items: center;
 justify-content: center;
 }
 .poster{
-height: 100px;
-width: 80px;
+    height: 110px;
+    width: 90px;
+    color: black;
+}
+.poster:hover{
+    transform: scale(1.1);
+    color: black;
+    opacity: 1.5;
 }
 
 .acc_create{
