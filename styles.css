@@ -22,14 +22,13 @@ a:visited{
 /* STYLING FOR NAV*/
 
 nav{
-    height: 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo{
-    width:250px;
-    height: 100px;
+    width:150px;
+    height: 60px;
     padding: 24px;
 }
 .nav_links{
@@ -41,8 +40,6 @@ justify-content: space-around;
 .nav_link{
     display: flex;
     padding: 12px;
-    
-
 }
 .rank_btn{
     background-color: rgb(0, 128, 68);
@@ -136,4 +133,18 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+/* STYLING FOR FOOTER*/
+.contact_para{
+    width: 300px;
+}
+/* STYLING FOR SIGN IN*/
+input{
+    width: 300px;
+    height: 25px;
+}
+.form_item{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
