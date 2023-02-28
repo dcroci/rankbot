@@ -12,6 +12,9 @@ html{
     background-size: cover;
 
 }
+.underlined{
+    text-decoration: underline;
+}
 body {
     margin: 0 64px;
 }
@@ -189,4 +192,11 @@ input {
     display: flex;
     flex-direction: column;
     padding: 20px;
+}
+/* STYLING FOR CONTACT*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
 }
