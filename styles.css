@@ -13,7 +13,7 @@ html{
 
 }
 body {
-    
+    margin: 0 64px;
 }
 
 main {
@@ -23,7 +23,7 @@ main {
     background-size: cover;
 
 }
-h1,h2,h3,h4,h5,h6,p,a{
+h1,h2,h3,h4,h5,h6,p,a,li,label{
     color: #707070;
 }
 a {
@@ -32,7 +32,7 @@ a {
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color: #707070;
 }
 
 /* STYLING FOR NAV*/
@@ -72,9 +72,8 @@ nav {
     border-radius: 10%;
 }
 
-.profile_img {
-    width: 50px;
-    height: 50px;
+nav i{
+    font-size: 30px;
 }
 
 /* STYLING FOR INTRO*/
@@ -142,7 +141,27 @@ nav {
     display: flex;
     flex-direction: column;
 }
-
+.intros{
+    background-color: rgba(0, 0, 0, 0.358);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5%;
+}
+.text_box{
+    background-color: white;
+    margin: 4px;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+}
+i{
+    color: #707070;
+}
 /* STYLING FOR FOOTER*/
 
 footer {
@@ -150,6 +169,7 @@ footer {
     flex-direction: column;
     align-items: center;
     border-top: 2px solid #707070;
+    width: 100%;
 }
 
 /* STYLING FOR FOOTER*/
