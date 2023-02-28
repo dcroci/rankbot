@@ -8,7 +8,13 @@
 body {}
 
 main {
-    background-color: #43426857;
+    background-image: url(assets/background_img.jpeg);
+    background-color: rgba(255,255,255,.3);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
 
 }
 
@@ -27,6 +33,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+nav, footer{
+    background-color: rgb(255, 255, 255);
 }
 
 .logo {
