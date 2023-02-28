@@ -4,20 +4,28 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
-body {}
-
-main {
-    background-image: url(assets/background_img.jpeg);
-    background-color: rgba(255,255,255,.3);
+html{
+    background-image: url(assets/black_bg.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: lighten;
 
 }
+body {
+    
+}
 
+main {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    color: #707070;
+}
 a {
     text-decoration: none;
 }
@@ -33,9 +41,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-nav, footer{
-    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #707070;
 }
 
 .logo {
@@ -78,41 +84,6 @@ nav, footer{
     align-items: center;
 }
 
-/* STYLING FOR SERVICES*/
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.service {
-    padding: 0 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 1px;
-}
-
-.service_logo {
-    max-width: 100px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-
-}
-
-.service_desc {
-    width: 100%;
-    padding-bottom: 12px;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-}
 
 /* STYLING FOR UPCOMING*/
 
@@ -178,6 +149,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-top: 2px solid #707070;
 }
 
 /* STYLING FOR FOOTER*/
